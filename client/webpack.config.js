@@ -26,7 +26,7 @@ module.exports = () => {
 
       // Injects our custom service worker
       new InjectManifest({
-        swSrc: './src-sw.js',
+        swSrc: '/src-sw.js',
         swDest: 'src-sw.js',
       }),
 
@@ -39,8 +39,8 @@ module.exports = () => {
         description: 'Just another text editor',
         background_color: '#272822',
         theme_color: '#225ca3',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -66,7 +66,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+              // plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
           },
         },
