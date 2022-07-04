@@ -37,10 +37,10 @@ module.exports = () => {
         name: 'Jate Text Editor',
         short_name: 'Jate',
         description: 'Just another text editor',
-        background_color: '#272822',
+        background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
