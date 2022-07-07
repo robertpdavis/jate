@@ -29,7 +29,7 @@ Running install will install all the required client and server dependancies.
 File structure of the application:
 ```md
 .
-├── client/                // contains src and dist folders along with main html and also a caching service worker and webpack config
+├── client/                // contains src and dist folder (when built) along with main html and also a caching service worker and webpack config
 ├── server/                // contain routes folder for routing all requests to the dist index.html as well as the node.js express server code
 ├── .gitignore             // indicates which folders and files Git should ignore
 ├── .npmrc                 // npm config file
