@@ -37,7 +37,7 @@ File structure of the application:
 ```
 Note: The root, client and server folders each have seperate package.json files that setup required app and dev dependencies.
 
-App is deployed on Heroku: https://texteditorjate.herokuapp.com/
+App is deployed on Heroku: https://jate.robertpdavis.com.au
 
 ## Usage
 Usage is straightforward. Type text in the editor which will be saved in the browsers indexDB when entering new lines of if the page looses focus. This also means the app will continue to funtion offline. A manifest is created with webpack which allows the app to be "installed". Caching is also applied.
